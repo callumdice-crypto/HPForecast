@@ -1,0 +1,132 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "1. Set up Python (create .venv and install)",
+      "type": "shell",
+      "problemMatcher": [],
+      "windows": {
+        "command": "py -m venv .venv; .\\.venv\\Scripts\\python.exe -m pip install --upgrade pip; .\\.venv\\Scripts\\python.exe -m pip install -r requirements.txt"
+      },
+      "linux": {
+        "command": "python3 -m venv .venv; .venv/bin/python -m pip install --upgrade pip; .venv/bin/python -m pip install -r requirements.txt"
+      },
+      "osx": {
+        "command": "python3 -m venv .venv; .venv/bin/python -m pip install --upgrade pip; .venv/bin/python -m pip install -r requirements.txt"
+      }
+    },
+    {
+      "label": "2. Build the C# engine and run its self-test",
+      "type": "shell",
+      "problemMatcher": [],
+      "windows": {
+        "command": ".\\.venv\\Scripts\\python.exe -m hpforecast setup-engine --selftest"
+      },
+      "linux": {
+        "command": ".venv/bin/python -m hpforecast setup-engine --selftest"
+      },
+      "osx": {
+        "command": ".venv/bin/python -m hpforecast setup-engine --selftest"
+      }
+    },
+    {
+      "label": "3. Check the data, test the engine and make the live forecast (a few minutes)",
+      "type": "shell",
+      "problemMatcher": [],
+      "windows": {
+        "command": ".\\.venv\\Scripts\\python.exe -m hpforecast backtest"
+      },
+      "linux": {
+        "command": ".venv/bin/python -m hpforecast backtest"
+      },
+      "osx": {
+        "command": ".venv/bin/python -m hpforecast backtest"
+      }
+    },
+    {
+      "label": "4. Redo only the live forecast (seconds)",
+      "type": "shell",
+      "problemMatcher": [],
+      "windows": {
+        "command": ".\\.venv\\Scripts\\python.exe -m hpforecast forecast"
+      },
+      "linux": {
+        "command": ".venv/bin/python -m hpforecast forecast"
+      },
+      "osx": {
+        "command": ".venv/bin/python -m hpforecast forecast"
+      }
+    },
+    {
+      "label": "5. Run all tests",
+      "type": "shell",
+      "problemMatcher": [],
+      "windows": {
+        "command": ".\\.venv\\Scripts\\python.exe -m pytest -q"
+      },
+      "linux": {
+        "command": ".venv/bin/python -m pytest -q"
+      },
+      "osx": {
+        "command": ".venv/bin/python -m pytest -q"
+      }
+    },
+    {
+      "label": "6. Open the app",
+      "type": "shell",
+      "problemMatcher": [],
+      "windows": {
+        "command": ".\\.venv\\Scripts\\python.exe -m streamlit run app/dashboard.py --server.port 8510"
+      },
+      "linux": {
+        "command": ".venv/bin/python -m streamlit run app/dashboard.py --server.port 8510"
+      },
+      "osx": {
+        "command": ".venv/bin/python -m streamlit run app/dashboard.py --server.port 8510"
+      },
+      "isBackground": true
+    },
+    {
+      "label": "7. Check the AI keys and model names (free)",
+      "type": "shell",
+      "problemMatcher": [],
+      "windows": {
+        "command": ".\\.venv\\Scripts\\python.exe -m hpforecast lookalike-check"
+      },
+      "linux": {
+        "command": ".venv/bin/python -m hpforecast lookalike-check"
+      },
+      "osx": {
+        "command": ".venv/bin/python -m hpforecast lookalike-check"
+      }
+    },
+    {
+      "label": "8. Look-alike test: first 3 cases (small cost)",
+      "type": "shell",
+      "problemMatcher": [],
+      "windows": {
+        "command": ".\\.venv\\Scripts\\python.exe -m hpforecast lookalike-eval --limit 3"
+      },
+      "linux": {
+        "command": ".venv/bin/python -m hpforecast lookalike-eval --limit 3"
+      },
+      "osx": {
+        "command": ".venv/bin/python -m hpforecast lookalike-eval --limit 3"
+      }
+    },
+    {
+      "label": "9. Look-alike test: all 20 cases",
+      "type": "shell",
+      "problemMatcher": [],
+      "windows": {
+        "command": ".\\.venv\\Scripts\\python.exe -m hpforecast lookalike-eval"
+      },
+      "linux": {
+        "command": ".venv/bin/python -m hpforecast lookalike-eval"
+      },
+      "osx": {
+        "command": ".venv/bin/python -m hpforecast lookalike-eval"
+      }
+    }
+  ]
+}

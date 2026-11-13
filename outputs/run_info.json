@@ -1,0 +1,12 @@
+{
+  "chosen_window_N": 3,
+  "validation_window": [
+    "2024-04-29",
+    "2024-10-28"
+  ],
+  "test_first_origin": "2024-11-04",
+  "labels": {
+    "validated": "State-space engine (window N=3 picked on 2024 data)"
+  },
+  "minutes": 0.1
+}

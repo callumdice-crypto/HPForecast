@@ -1,0 +1,76 @@
+/* Health Partners Group look, always light. Colours and fonts come from .streamlit/config.toml; this file shapes the pieces.
+   Palette: purple #3D2683 (dark #26194E, light #7051CD, tint #ECE7F7), coral #EB595E, page #F6F5F8, line #E6E3EE, text #333333, muted #6B6B78. */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600;700&display=swap");
+
+:root {
+  --bg: #F6F5F8; --card: #FFFFFF; --line: #E6E3EE; --text: #333333; --muted: #6B6B78;
+  --purple: #3D2683; --purple-dark: #26194E; --purple-light: #6A4BC4; --tint: #ECE7F7; --tint-2: #F3F0FA;
+  --coral: #E5484D; --coral-brand: #EB595E; --coral-tint: #FFDDDE; --coral-ink: #5A1E21;
+}
+:root { color-scheme: light; }
+
+/* page ---------------------------------------------------------------- */
+.stApp { background: var(--bg); }
+[data-testid="stHeader"] { background: transparent; }
+.block-container { max-width: 1320px; padding-top: 1.6rem; padding-bottom: 4rem; }
+.stApp h1, .stApp h2, .stApp h3, .stApp h4 { letter-spacing: -0.01em; color: var(--purple); font-family: "Source Serif 4", Georgia, serif; }
+.stApp h2 { font-weight: 700; }
+.stApp h3, .stApp h4 { font-weight: 700; }
+p, li { line-height: 1.55; }
+[data-testid="stCaptionContainer"], [data-testid="stCaptionContainer"] p { color: var(--muted); }
+
+/* the header band ---------------------------------------------------- */
+.hp-header { background: var(--purple); color: #fff; border-radius: 16px; padding: 1.15rem 1.4rem 1.1rem; margin-bottom: 1.1rem; }
+.hp-top { display: flex; align-items: center; flex-wrap: wrap; gap: .6rem 1rem; }
+.hp-logo { background: var(--purple); border-radius: 10px; padding: 4px 0; display: inline-flex; align-items: center; }   /* the logo box: Health Partners purple, so the logo is white on purple */
+.hp-logo img { height: 30px; width: auto; display: block; }
+.hp-title { margin: .75rem 0 0; font: 700 clamp(1.25rem, 2.6vw, 1.7rem)/1.2 "Source Serif 4", Georgia, serif; letter-spacing: -0.01em; color: #fff; }
+.hp-title span { display: block; font-weight: 400; font-size: .72em; color: #E6DFF8; margin-top: .25rem; }
+@media (max-width: 600px) { .hp-logo img { height: 22px; } }
+
+/* tabs ---------------------------------------------------------------- */
+[data-baseweb="tab-list"] { gap: .2rem; }
+[data-baseweb="tab-border"] { background: var(--line); height: 1px; }
+button[data-baseweb="tab"] { padding: .65rem 1.05rem; background: transparent; }
+button[data-baseweb="tab"] p { font-weight: 600; color: var(--muted); }
+button[data-baseweb="tab"][aria-selected="true"] p { color: var(--purple); }
+[data-baseweb="tab-highlight"] { height: 3px; border-radius: 3px; background: var(--purple); }
+
+/* number tiles -------------------------------------------------------- */
+.kpis { display: grid; grid-template-columns: repeat(var(--n, 4), minmax(0, 1fr)); gap: .8rem; margin: .3rem 0 1rem; }
+@media (max-width: 900px) { .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.kpi { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: .85rem 1rem .9rem; box-shadow: 0 1px 2px rgba(38, 25, 78, .05); }
+.kpi .l { font-size: .78rem; font-weight: 600; color: var(--muted); }
+.kpi .n { font: 700 1.75rem/1.15 "Source Serif 4", Georgia, serif; color: var(--purple); margin: .2rem 0 .25rem; font-variant-numeric: tabular-nums; }
+.kpi .s { font-size: .8rem; color: var(--muted); line-height: 1.35; }
+.kpi.alert .n { color: var(--coral); }
+
+/* the appointment-type list: compact rows, stays in view while the page scrolls ------- */
+[data-testid="stColumn"]:has(.type-rail) { position: sticky; top: 3.4rem; align-self: flex-start; max-height: calc(100vh - 4.4rem); overflow-y: auto; padding-right: .4rem; }
+[data-testid="stColumn"]:has(.type-rail) [data-testid="stVerticalBlock"] { gap: .25rem; }
+.type-rail { font-size: .72rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); margin: .2rem .2rem .3rem; }
+[class*="st-key-type_"] button { min-height: 0; padding: .45rem .75rem; justify-content: flex-start; text-align: left; }
+[class*="st-key-type_"] button > div, [class*="st-key-type_"] button span, [class*="st-key-type_"] button [data-testid="stMarkdownContainer"] { width: 100%; justify-content: flex-start; text-align: left; }
+[class*="st-key-type_"] button [data-testid="stMarkdownContainer"] { white-space: normal !important; overflow: visible !important; text-overflow: clip !important; }
+[class*="st-key-type_"] button p { font-size: .84rem; font-weight: 600; text-align: left; white-space: normal; }
+[class*="st-key-type_"] [data-testid="stBaseButton-secondary"] { background: var(--card); border: 1px solid var(--line); color: var(--text); }
+[class*="st-key-type_"] [data-testid="stBaseButton-secondary"]:hover { background: var(--tint-2); border-color: var(--purple-light); color: var(--purple); }
+[class*="st-key-type_"] [data-testid="stBaseButton-primary"] { background: var(--purple); border: 1px solid var(--purple); color: #fff; }
+[class*="st-key-type_"] [data-testid="stBaseButton-primary"] p { color: #fff; }
+
+/* the heading above the chart, with its note right under it ------------ */
+.chart-head h4 { margin: 0 0 .25rem; padding: 0; font-size: 1.4rem; line-height: 1.25; }
+.chart-head p { margin: 0; color: var(--muted); font-size: .875rem; line-height: 1.45; }
+
+/* tables, pictures, small print -------------------------------------- */
+[data-testid="stDataFrame"] { border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+[data-testid="stImage"] img { border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+button:focus-visible { outline: 2px solid var(--purple-light); outline-offset: 2px; }
+
+/* tables with sentences in them: the words wrap instead of being cut off ----------- */
+.etable { width: 100%; border-collapse: separate; border-spacing: 0; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--card); font-size: .86rem; margin: .2rem 0 1rem; }
+.etable th { text-align: left; background: var(--tint-2); color: var(--purple); font-weight: 600; padding: .55rem .8rem; border-bottom: 1px solid var(--line); vertical-align: bottom; }
+.etable td { padding: .55rem .8rem; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.45; color: var(--text); }
+.etable tr:last-child td { border-bottom: none; }
+.etable td:first-child { font-weight: 600; }

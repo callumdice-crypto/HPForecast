@@ -1,0 +1,754 @@
+{
+  "input": {
+    "series": "T06",
+    "series_name": "Therapy",
+    "embedding_dimension": 3,
+    "current": {
+      "point_end": "2026-10-26",
+      "weeks_covered": [
+        "2026-10-12",
+        "2026-10-19",
+        "2026-10-26"
+      ],
+      "forecast_week": "2026-11-02"
+    },
+    "forecast": {
+      "basis": "the engine run on this appointment type",
+      "vs_latest_week_pct": 9.4,
+      "vs_last_4_weeks_pct": 13.6,
+      "vs_last_13_weeks_pct": 12.8,
+      "direct_run_vs_latest_week_pct": null,
+      "latest_week_working_days": 5,
+      "forecast_week_working_days": 5
+    },
+    "neighbours": [
+      {
+        "point_end": "2022-06-06",
+        "weeks_covered": [
+          "2022-05-23",
+          "2022-05-30",
+          "2022-06-06"
+        ],
+        "week_after": "2022-06-13",
+        "weight_pct": 68,
+        "week_after_change_pct": 3.8
+      },
+      {
+        "point_end": "2022-09-12",
+        "weeks_covered": [
+          "2022-08-29",
+          "2022-09-05",
+          "2022-09-12"
+        ],
+        "week_after": "2022-09-19",
+        "weight_pct": 25,
+        "week_after_change_pct": 11.0
+      },
+      {
+        "point_end": "2022-04-04",
+        "weeks_covered": [
+          "2022-03-21",
+          "2022-03-28",
+          "2022-04-04"
+        ],
+        "week_after": "2022-04-11",
+        "weight_pct": 6,
+        "week_after_change_pct": 34.9
+      },
+      {
+        "point_end": "2022-03-07",
+        "weeks_covered": [
+          "2022-02-21",
+          "2022-02-28",
+          "2022-03-07"
+        ],
+        "week_after": "2022-03-14",
+        "weight_pct": 1,
+        "week_after_change_pct": -23.6
+      },
+      {
+        "point_end": "2024-08-26",
+        "weeks_covered": [
+          "2024-08-12",
+          "2024-08-19",
+          "2024-08-26"
+        ],
+        "week_after": "2024-09-02",
+        "weight_pct": 0,
+        "week_after_change_pct": 16.1
+      },
+      {
+        "point_end": "2024-04-01",
+        "weeks_covered": [
+          "2024-03-18",
+          "2024-03-25",
+          "2024-04-01"
+        ],
+        "week_after": "2024-04-08",
+        "weight_pct": 0,
+        "week_after_change_pct": -1.0
+      }
+    ],
+    "calendar_range": [
+      "2021-11-01",
+      "2027-12-20"
+    ],
+    "calendar": [
+      {
+        "week_start": "2022-01-10",
+        "iso_week": 2,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-01-17",
+        "iso_week": 3,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-01-24",
+        "iso_week": 4,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-01-31",
+        "iso_week": 5,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-02-07",
+        "iso_week": 6,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-02-14",
+        "iso_week": 7,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2022-02-21",
+        "iso_week": 8,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-02-28",
+        "iso_week": 9,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-03-07",
+        "iso_week": 10,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-03-14",
+        "iso_week": 11,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-03-21",
+        "iso_week": 12,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-03-28",
+        "iso_week": 13,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-04-04",
+        "iso_week": 14,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2022-04-11",
+        "iso_week": 15,
+        "working_days": 4,
+        "bank_holiday_days": 1,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2022-04-18",
+        "iso_week": 16,
+        "working_days": 4,
+        "bank_holiday_days": 1,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2022-04-25",
+        "iso_week": 17,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-05-02",
+        "iso_week": 18,
+        "working_days": 4,
+        "bank_holiday_days": 1,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-05-09",
+        "iso_week": 19,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-05-16",
+        "iso_week": 20,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-05-23",
+        "iso_week": 21,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-05-30",
+        "iso_week": 22,
+        "working_days": 3,
+        "bank_holiday_days": 2,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2022-06-06",
+        "iso_week": 23,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-06-13",
+        "iso_week": 24,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-06-20",
+        "iso_week": 25,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-06-27",
+        "iso_week": 26,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-07-04",
+        "iso_week": 27,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-07-11",
+        "iso_week": 28,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-07-18",
+        "iso_week": 29,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2022-07-25",
+        "iso_week": 30,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2022-08-01",
+        "iso_week": 31,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2022-08-08",
+        "iso_week": 32,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2022-08-15",
+        "iso_week": 33,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2022-08-22",
+        "iso_week": 34,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2022-08-29",
+        "iso_week": 35,
+        "working_days": 4,
+        "bank_holiday_days": 1,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2022-09-05",
+        "iso_week": 36,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-09-12",
+        "iso_week": 37,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-09-19",
+        "iso_week": 38,
+        "working_days": 4,
+        "bank_holiday_days": 1,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-09-26",
+        "iso_week": 39,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-10-03",
+        "iso_week": 40,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-10-10",
+        "iso_week": 41,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-10-17",
+        "iso_week": 42,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2022-10-24",
+        "iso_week": 43,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2022-10-31",
+        "iso_week": 44,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-02-05",
+        "iso_week": 6,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-02-12",
+        "iso_week": 7,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2024-02-19",
+        "iso_week": 8,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-02-26",
+        "iso_week": 9,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-03-04",
+        "iso_week": 10,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-03-11",
+        "iso_week": 11,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-03-18",
+        "iso_week": 12,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2024-03-25",
+        "iso_week": 13,
+        "working_days": 4,
+        "bank_holiday_days": 1,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2024-04-01",
+        "iso_week": 14,
+        "working_days": 4,
+        "bank_holiday_days": 1,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2024-04-08",
+        "iso_week": 15,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-04-15",
+        "iso_week": 16,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-04-22",
+        "iso_week": 17,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-04-29",
+        "iso_week": 18,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-05-06",
+        "iso_week": 19,
+        "working_days": 4,
+        "bank_holiday_days": 1,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-05-13",
+        "iso_week": 20,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-05-20",
+        "iso_week": 21,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-07-01",
+        "iso_week": 27,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-07-08",
+        "iso_week": 28,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-07-15",
+        "iso_week": 29,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-07-22",
+        "iso_week": 30,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2024-07-29",
+        "iso_week": 31,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2024-08-05",
+        "iso_week": 32,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2024-08-12",
+        "iso_week": 33,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2024-08-19",
+        "iso_week": 34,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2024-08-26",
+        "iso_week": 35,
+        "working_days": 4,
+        "bank_holiday_days": 1,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2024-09-02",
+        "iso_week": 36,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-09-09",
+        "iso_week": 37,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-09-16",
+        "iso_week": 38,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-09-23",
+        "iso_week": 39,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-09-30",
+        "iso_week": 40,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-10-07",
+        "iso_week": 41,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2024-10-14",
+        "iso_week": 42,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2026-08-31",
+        "iso_week": 36,
+        "working_days": 4,
+        "bank_holiday_days": 1,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2026-09-07",
+        "iso_week": 37,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2026-09-14",
+        "iso_week": 38,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2026-09-21",
+        "iso_week": 39,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2026-09-28",
+        "iso_week": 40,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2026-10-05",
+        "iso_week": 41,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2026-10-12",
+        "iso_week": 42,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2026-10-19",
+        "iso_week": 43,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2026-10-26",
+        "iso_week": 44,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      },
+      {
+        "week_start": "2026-11-02",
+        "iso_week": 45,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2026-11-09",
+        "iso_week": 46,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2026-11-16",
+        "iso_week": 47,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2026-11-23",
+        "iso_week": 48,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2026-11-30",
+        "iso_week": 49,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2026-12-07",
+        "iso_week": 50,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 0
+      },
+      {
+        "week_start": "2026-12-14",
+        "iso_week": 51,
+        "working_days": 5,
+        "bank_holiday_days": 0,
+        "school_holiday": 1
+      }
+    ]
+  },
+  "model": "gpt-5",
+  "prompt_version": "31af2e36",
+  "written_at": "2026-11-13T16:27:57",
+  "report": {
+    "paragraphs": [
+      "The look-alikes are dominated by one stretch: 2022-06-06 carries most of the weight, with a modest rise in the week after; 2022-09-12 also matters and points to a clearer rise; smaller traces from 2022-04-04 (strong rise) and 2022-03-07 (fall) don\u2019t move the picture much. Those heavier look-alikes sit just after holiday or short weeks, returning to normal working patterns. Our forecast week, 02 Nov 2026, also follows a school half-term week (28 Oct week in the history) and is a full working week. For therapy, school breaks and short weeks can disrupt attendance and rescheduling, while early winter typically brings more sickness and low mood, nudging cancellations up. The calendar \u201cback to normal\u201d pattern is shared; season is not. Verdict: a partly genuine match, not just in the numbers.",
+      "The forecast says a clear rise on the latest week and on the last month and quarter. For 02 Nov 2026 that feels reasonable: it\u2019s a full week after half-term, when routines resume, and early November typically brings more illness-related cancellations in therapy. That suggests cancellations and income at risk will run above recent levels. If the return from half-term proves unusually smooth, it could come in flatter. One thing to watch: an early-winter bug wave pushing cancellations higher."
+    ]
+  },
+  "raw": "",
+  "parse_error": "",
+  "check": {
+    "errors": [],
+    "format_issues": [],
+    "rule_flags": [],
+    "n_errors": 0,
+    "n_format_issues": 0
+  }
+}

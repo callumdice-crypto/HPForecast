@@ -1,0 +1,3 @@
+run_id,when,writer,judges,writer_prompt,judge_prompt,cases,cases_scored,cases_failed,cases_with_date_errors,cases_to_read_yourself,verdict_exact_pct,verdict_within_one_pct,rules_followed_pct,calendar_accuracy_mean,over_claiming_mean,reasoning_mean,use_of_weights_mean,clarity_mean
+20261113_130529,2026-11-13T13:07:06,gpt-5,gpt-5.5,47f91ada,b492e774,3,3,0,0,2,46.7,100.0,66.7,4.0,3.33,3.67,4.67,4.33
+20261113_162042,2026-11-13T16:24:54,gpt-5,gpt-5.5,31af2e36,d7002a69,20,20,0,1,2,0,95.0,4.35,4.0,4.5,3.9,4.95,4.25

@@ -1,0 +1,31 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "terminal.integrated.env.windows": {
+    "PYTHONPATH": "${workspaceFolder}/src"
+  },
+  "terminal.integrated.env.osx": {
+    "PYTHONPATH": "${workspaceFolder}/src"
+  },
+  "terminal.integrated.env.linux": {
+    "PYTHONPATH": "${workspaceFolder}/src"
+  },
+  "python.analysis.extraPaths": [
+    "src"
+  ],
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.egg-info": true,
+    "**/.pytest_cache": true,
+    "**/bin": true,
+    "**/obj": true
+  },
+  "editor.formatOnSave": false,
+  "dotnet.defaultSolution": "disable",
+  "window.title": "Health Partners Forecasting${separator}${activeEditorShort}"
+}

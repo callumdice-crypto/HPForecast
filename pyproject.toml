@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hpforecast"
+version = "0.1.0"
+description = "Health Partners Forecasting. Machine Learning for Cash Flow Forecasting: a state-space nearest-neighbour (fractal dimension + SVD + DTW) forecaster for weekly appointment cancellation losses at Health Partners Group. SIMULATED data."
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scipy", "streamlit", "altair", "openai>=1.66", "anthropic>=0.40"]
+
+[project.scripts]
+hpforecast = "hpforecast.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+hpforecast = ["assets/*.svg", "prompts/*.md"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

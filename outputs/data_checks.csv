@@ -1,0 +1,12 @@
+Check,Result,Rows affected,Detail
+Duplicate cancellation IDs,PASS,0,"All 391,344 cancellation IDs are unique"
+Unknown client IDs,PASS,0,Every client ID is in the client list
+Unknown appointment types,PASS,0,Every appointment type is in the type list
+Missing or £0 prices,PASS,0,Every row has a price above £0
+Prices far from the price list,PASS,0,Every price is within 20% of the client's price-list price
+No price-list price,PASS,0,Every row has a price-list price to compare with
+Missing or unreadable dates,PASS,0,Every date can be read
+Dates in the future,PASS,0,No date is after today (13 Nov 2026)
+Dates in the wrong order,PASS,0,"Every row is booked, then cancelled, then the appointment"
+48-hour rule,PASS,0,Every cancellation was made more than 48 hours ahead
+Booked before the client joined,PASS,0,No cancellation was booked before the client joined

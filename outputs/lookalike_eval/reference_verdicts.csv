@@ -1,0 +1,87 @@
+case_id,series,now_ends,lookalike_ends,weight_pct,weeks_apart_in_year,school_pattern_identical,school_end_matches,bank_pattern_identical_with_holiday,score,reference_verdict
+2024-08-12_T01,T01,2024-08-12,2022-02-21,86,24.7,False,False,False,0,Numbers only
+2024-08-12_T01,T01,2024-08-12,2023-02-13,9,25.9,False,False,False,0,Numbers only
+2024-08-12_T01,T01,2024-08-12,2023-07-24,5,2.9,False,True,False,3,Partly
+2024-09-09_T07,T07,2024-09-09,2024-01-29,66,20.1,False,False,False,0,Numbers only
+2024-09-09_T07,T07,2024-09-09,2022-09-05,33,0.7,False,False,False,2,Partly
+2024-09-09_T07,T07,2024-09-09,2023-11-13,1,9.1,True,False,False,2,Partly
+2024-12-23_T01,T01,2024-12-23,2024-07-01,60,25.0,False,False,False,0,Numbers only
+2024-12-23_T01,T01,2024-12-23,2022-05-30,27,22.4,False,False,False,0,Numbers only
+2024-12-23_T01,T01,2024-12-23,2024-09-30,13,12.0,False,False,False,0,Numbers only
+2024-12-30_T08,T08,2024-12-30,2024-07-08,50,25.0,False,False,False,0,Numbers only
+2024-12-30_T08,T08,2024-12-30,2022-02-21,49,7.4,False,False,False,1,Partly
+2024-12-30_T08,T08,2024-12-30,2023-09-18,1,14.9,False,False,False,0,Numbers only
+2025-01-06_ALL,ALL,2025-01-06,2023-07-03,54,25.4,False,False,False,0,Numbers only
+2025-01-06_ALL,ALL,2025-01-06,2024-04-29,34,16.3,False,False,False,0,Numbers only
+2025-01-06_ALL,ALL,2025-01-06,2024-12-23,12,1.9,False,False,False,2,Partly
+2025-04-14_T03,T03,2025-04-14,2023-11-13,93,21.7,False,False,False,0,Numbers only
+2025-04-14_T03,T03,2025-04-14,2025-03-24,4,3.0,False,False,False,2,Partly
+2025-04-14_T03,T03,2025-04-14,2024-10-28,3,23.9,False,False,False,0,Numbers only
+2025-04-14_T03,T03,2025-04-14,2023-10-16,0,25.7,False,False,False,0,Numbers only
+2025-04-28_T01,T01,2025-04-28,2023-12-04,68,20.7,False,False,False,0,Numbers only
+2025-04-28_T01,T01,2025-04-28,2024-04-08,30,2.7,True,False,False,4,Calendar link
+2025-04-28_T01,T01,2025-04-28,2025-03-10,2,7.0,False,False,False,1,Partly
+2025-04-28_T01,T01,2025-04-28,2023-03-06,0,7.6,False,False,False,1,Partly
+2025-04-28_T08,T08,2025-04-28,2022-09-05,86,18.6,True,False,False,2,Partly
+2025-04-28_T08,T08,2025-04-28,2022-10-24,7,25.6,False,False,False,0,Numbers only
+2025-04-28_T08,T08,2025-04-28,2024-07-29,4,13.3,False,False,False,0,Numbers only
+2025-04-28_T08,T08,2025-04-28,2025-02-17,3,10.0,False,False,False,0,Numbers only
+2025-05-19_T09,T09,2025-05-19,2024-06-24,87,5.3,False,False,False,1,Partly
+2025-05-19_T09,T09,2025-05-19,2025-02-17,8,13.0,False,False,False,0,Numbers only
+2025-05-19_T09,T09,2025-05-19,2023-04-03,3,6.6,False,False,False,1,Partly
+2025-05-19_T09,T09,2025-05-19,2022-07-11,2,7.6,True,False,False,3,Partly
+2025-06-02_T02,T02,2025-06-02,2024-07-22,80,7.3,False,False,False,1,Partly
+2025-06-02_T02,T02,2025-06-02,2023-08-14,20,10.4,False,False,False,0,Numbers only
+2025-06-02_T02,T02,2025-06-02,2024-04-01,0,8.7,False,False,False,0,Numbers only
+2025-06-02_T02,T02,2025-06-02,2022-07-25,0,7.6,False,False,False,1,Partly
+2025-08-25_T01,T01,2025-08-25,2023-02-20,63,25.6,False,False,False,0,Numbers only
+2025-08-25_T01,T01,2025-08-25,2024-03-25,20,21.7,False,False,False,0,Numbers only
+2025-08-25_T01,T01,2025-08-25,2022-05-02,15,16.4,False,False,False,0,Numbers only
+2025-08-25_T01,T01,2025-08-25,2025-08-11,2,2.0,False,False,False,2,Partly
+2025-09-08_T08,T08,2025-09-08,2025-05-26,75,15.0,False,False,False,0,Numbers only
+2025-09-08_T08,T08,2025-09-08,2024-03-25,11,23.7,False,False,False,0,Numbers only
+2025-09-08_T08,T08,2025-09-08,2025-03-10,10,26.0,False,False,False,0,Numbers only
+2025-09-08_T08,T08,2025-09-08,2024-07-01,4,9.7,False,False,False,0,Numbers only
+2025-10-27_T08,T08,2025-10-27,2025-04-21,82,25.1,False,True,False,1,Partly
+2025-10-27_T08,T08,2025-10-27,2022-07-04,16,16.4,False,False,False,0,Numbers only
+2025-10-27_T08,T08,2025-10-27,2021-11-15,2,2.7,False,False,False,2,Partly
+2025-10-27_T08,T08,2025-10-27,2025-09-01,0,8.0,False,False,False,1,Partly
+2025-10-27_T08,T08,2025-10-27,2023-07-10,0,15.6,False,False,False,0,Numbers only
+2025-12-22_T06,T06,2025-12-22,2022-03-21,77,12.7,False,False,False,0,Numbers only
+2025-12-22_T06,T06,2025-12-22,2024-04-22,12,17.4,False,False,False,0,Numbers only
+2025-12-22_T06,T06,2025-12-22,2023-10-30,11,7.6,False,False,False,1,Partly
+2025-12-22_T06,T06,2025-12-22,2022-07-11,0,23.4,False,False,False,0,Numbers only
+2025-12-22_T06,T06,2025-12-22,2025-08-18,0,18.0,False,True,False,1,Partly
+2026-02-16_T05,T05,2026-02-16,2023-05-29,87,14.6,True,False,False,2,Partly
+2026-02-16_T05,T05,2026-02-16,2023-02-06,7,1.4,False,False,False,2,Partly
+2026-02-16_T05,T05,2026-02-16,2022-04-04,4,6.7,False,False,False,1,Partly
+2026-02-16_T05,T05,2026-02-16,2023-09-25,1,20.6,False,False,False,0,Numbers only
+2026-02-16_T05,T05,2026-02-16,2024-07-08,1,20.4,False,False,False,0,Numbers only
+2026-04-13_T10,T10,2026-04-13,2026-03-02,81,6.0,False,False,False,1,Partly
+2026-04-13_T10,T10,2026-04-13,2025-02-17,14,7.9,False,False,False,1,Partly
+2026-04-13_T10,T10,2026-04-13,2025-06-30,2,11.1,False,False,False,0,Numbers only
+2026-04-13_T10,T10,2026-04-13,2024-02-05,2,9.6,False,False,False,0,Numbers only
+2026-04-13_T10,T10,2026-04-13,2024-12-02,1,18.7,False,False,False,0,Numbers only
+2026-06-01_T04,T04,2026-06-01,2025-03-10,88,11.9,False,False,False,0,Numbers only
+2026-06-01_T04,T04,2026-06-01,2023-07-17,3,6.6,False,False,False,1,Partly
+2026-06-01_T04,T04,2026-06-01,2022-02-14,3,15.3,False,False,False,0,Numbers only
+2026-06-01_T04,T04,2026-06-01,2022-10-17,3,19.7,False,False,False,0,Numbers only
+2026-06-01_T04,T04,2026-06-01,2022-10-10,3,18.7,False,False,False,0,Numbers only
+2026-10-26_T01,T01,2026-10-26,2023-09-18,72,5.4,False,False,False,1,Partly
+2026-10-26_T01,T01,2026-10-26,2026-04-06,14,23.1,False,True,False,1,Partly
+2026-10-26_T01,T01,2026-10-26,2026-07-27,10,13.0,False,False,False,0,Numbers only
+2026-10-26_T01,T01,2026-10-26,2024-03-11,3,19.6,False,False,False,0,Numbers only
+2026-10-26_T01,T01,2026-10-26,2024-12-09,1,6.4,False,False,False,1,Partly
+2026-10-26_T01,T01,2026-10-26,2023-10-09,0,2.4,False,False,False,2,Partly
+2026-10-26_T08,T08,2026-10-26,2024-08-26,80,8.6,False,True,False,1,Partly
+2026-10-26_T08,T08,2026-10-26,2025-07-28,16,12.9,False,False,False,0,Numbers only
+2026-10-26_T08,T08,2026-10-26,2024-04-01,2,22.6,False,True,False,1,Partly
+2026-10-26_T08,T08,2026-10-26,2024-01-01,2,9.6,False,True,False,1,Partly
+2026-10-26_T08,T08,2026-10-26,2023-10-09,0,2.4,False,False,False,2,Partly
+2026-10-26_T08,T08,2026-10-26,2023-02-13,0,15.7,True,False,False,2,Partly
+2026-10-26_ALL,ALL,2026-10-26,2022-05-09,70,24.3,False,False,False,0,Numbers only
+2026-10-26_ALL,ALL,2026-10-26,2022-02-07,13,14.9,False,False,False,0,Numbers only
+2026-10-26_ALL,ALL,2026-10-26,2021-11-15,6,2.9,False,False,False,2,Partly
+2026-10-26_ALL,ALL,2026-10-26,2025-03-24,4,21.3,False,False,False,0,Numbers only
+2026-10-26_ALL,ALL,2026-10-26,2024-10-28,4,0.4,True,False,False,4,Calendar link
+2026-10-26_ALL,ALL,2026-10-26,2022-06-27,3,17.3,False,False,False,0,Numbers only

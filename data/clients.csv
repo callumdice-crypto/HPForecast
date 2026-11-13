@@ -1,0 +1,201 @@
+client_id,client_name,industry,region,size_band,joined_date,price_multiplier
+C001,Garthmoor Print & Packaging Ltd,Manufacturing,West Midlands,Large,2024-07-01,0.9482
+C002,Corvane Foods Holdings,Food & drink,South West,Medium,2024-06-03,0.9594
+C003,Mereside Waste Solutions Holdings,Utilities,North East,Medium,2021-10-11,1.0582
+C004,Rushmoor Logistics LLP,Transport & logistics,South East,Medium,2023-01-09,1.0681
+C005,Denholm Care Services LLP,Social care,East Midlands,Medium,2021-10-04,1.0893
+C006,Kestlebrook Retail Ltd,Retail,London,Small,2021-10-11,1.0126
+C007,Prestwick Green Digital Ltd,Technology,South West,Medium,2021-10-04,1.0045
+C008,Dalbeck Hospitality Holdings,Hospitality,London,Small,2021-10-25,0.9907
+C009,Corvane Hospitality LLP,Hospitality,North East,Medium,2021-10-11,0.9392
+C010,Quillham Print & Packaging Group,Manufacturing,South East,Small,2022-08-01,1.1362
+C011,Denholm Retail Holdings,Retail,West Midlands,Medium,2021-10-11,0.9752
+C012,Garthmoor Logistics LLP,Transport & logistics,South East,Small,2021-10-11,1.0143
+C013,Quillham Digital Holdings,Technology,South West,Medium,2021-10-11,1.0303
+C014,Yoredale Retail plc,Retail,North East,Large,2021-09-27,0.9619
+C015,Jarrowby Security Ltd,Security services,East Midlands,Medium,2021-09-27,0.8995
+C016,Sandbeck Waste Solutions Group,Utilities,North West,Medium,2022-11-07,0.9092
+C017,Varleigh Logistics Ltd,Transport & logistics,South West,Small,2021-10-18,1.106
+C018,Redcombe Digital Holdings,Technology,East of England,Small,2021-10-18,1.0856
+C019,Thornaby Financial Services & Sons,Finance,North West,Large,2021-10-04,0.8813
+C020,Juniper Row Security Ltd,Security services,East Midlands,Large,2021-10-04,1.0143
+C021,Irwell Engineering & Sons,Engineering,Northern Ireland,Medium,2021-10-18,0.9604
+C022,Kestlebrook Engineering Ltd,Engineering,South West,Large,2021-10-04,0.7419
+C023,Corvane Energy Ltd,Energy & utilities,West Midlands,Small,2021-10-04,0.9512
+C024,Wharfedale Care Services Ltd,Social care,Northern Ireland,Small,2021-10-18,0.8888
+C025,Wetherdown Digital plc,Technology,South West,Small,2025-03-24,1.155
+C026,Quarrydale Waste Solutions Ltd,Utilities,East Midlands,Small,2021-10-04,1.0834
+C027,Evenlode Print & Packaging Ltd,Manufacturing,North West,Small,2021-10-11,1.0423
+C028,Bellmoor Print & Packaging LLP,Manufacturing,Wales,Medium,2021-10-04,0.7693
+C029,Juniper Row Manufacturing Group,Manufacturing,East Midlands,Small,2023-05-29,0.8885
+C030,Ravensdyke Logistics LLP,Transport & logistics,West Midlands,Small,2021-10-04,1.0146
+C031,Larkhill Print & Packaging Ltd,Manufacturing,East Midlands,Medium,2021-10-11,0.8118
+C032,Irwell Energy Ltd,Energy & utilities,South West,Small,2024-07-29,1.1317
+C033,Pinfold Security Ltd,Security services,North West,Small,2021-10-04,1.0195
+C034,Zennor Manufacturing Ltd,Manufacturing,North West,Medium,2024-02-05,0.9562
+C035,Harrowfield Construction Ltd,Construction,South East,Medium,2021-09-27,0.9639
+C036,Sandbeck Hospitality Group,Hospitality,South East,Small,2021-10-11,0.9366
+C037,Quillham Hospitality & Sons,Hospitality,South East,Small,2021-10-11,0.928
+C038,Eskwood Digital Group,Technology,London,Small,2021-10-04,0.8519
+C039,Zennor Foods plc,Food & drink,Yorkshire & Humber,Medium,2021-10-11,0.9723
+C040,Aldermoor Waste Solutions Holdings,Utilities,Wales,Small,2025-08-04,1.0727
+C041,Varleigh Energy Ltd,Energy & utilities,Northern Ireland,Small,2021-10-18,1.0058
+C042,Stanbrook Engineering Ltd,Engineering,North West,Small,2021-10-04,1.0013
+C043,Ellerwick Engineering Group,Engineering,East Midlands,Small,2023-11-06,0.9376
+C044,Redcombe Security plc,Security services,London,Small,2021-10-04,1.0561
+C045,Tarnside Engineering Group,Engineering,East of England,Small,2021-10-18,0.8061
+C046,Oakhurst Hospitality Ltd,Hospitality,Scotland,Large,2021-10-04,0.8059
+C047,Evenlode Energy LLP,Energy & utilities,Northern Ireland,Small,2021-10-11,0.9644
+C048,Valebridge Digital & Sons,Technology,South West,Medium,2023-07-10,0.9219
+C049,Northwell Digital plc,Technology,West Midlands,Medium,2021-10-11,0.9914
+C050,Prestwick Green Manufacturing & Sons,Manufacturing,North West,Small,2021-10-18,1.0104
+C051,Evenlode Security Group,Security services,South West,Small,2021-10-18,1.0461
+C052,Nethercote Care Services Group,Social care,Scotland,Small,2021-10-18,1.1666
+C053,Netherby Manufacturing Ltd,Manufacturing,Northern Ireland,Medium,2021-09-27,1.1127
+C054,Coldharbour Retail plc,Retail,Yorkshire & Humber,Small,2023-04-24,1.0989
+C055,Coldharbour Construction plc,Construction,South East,Small,2021-10-18,1.167
+C056,Garthmoor Manufacturing Ltd,Manufacturing,North East,Small,2021-11-01,1.2245
+C057,Ravensdyke Waste Solutions & Sons,Utilities,Northern Ireland,Small,2021-10-11,1.0689
+C058,Yoredale Education Trust Ltd,Education,North West,Medium,2021-10-04,0.8434
+C059,Calderwick Construction plc,Construction,Wales,Medium,2024-06-03,1.0726
+C060,Rushmoor Energy Ltd,Energy & utilities,Wales,Medium,2021-09-27,0.8781
+C061,Tamworth Rise Digital & Sons,Technology,East of England,Small,2021-10-11,1.2408
+C062,Sandbeck Print & Packaging LLP,Manufacturing,Scotland,Small,2021-10-04,1.2239
+C063,Varleigh Security Ltd,Security services,North East,Medium,2021-10-04,0.921
+C064,Ellerwick Energy Ltd,Energy & utilities,Scotland,Small,2021-10-04,0.9227
+C065,Kestlebrook Manufacturing Ltd,Manufacturing,West Midlands,Small,2021-10-18,0.9615
+C066,Kingsgrave Financial Services Holdings,Finance,Wales,Medium,2021-10-11,0.9637
+C067,Ashgrove Energy Holdings,Energy & utilities,North West,Small,2021-10-11,1.1708
+C068,Heathcote Construction plc,Construction,Scotland,Large,2021-09-13,0.7954
+C069,Ulverdale Energy plc,Energy & utilities,North West,Large,2021-09-27,0.983
+C070,Brackenfield Financial Services LLP,Finance,Northern Ireland,Medium,2021-10-04,0.7887
+C071,Yoredale Financial Services Group,Finance,East Midlands,Medium,2022-03-14,1.0952
+C072,Northwell Waste Solutions plc,Utilities,London,Large,2025-06-16,0.8944
+C073,Dalbeck Construction Ltd,Construction,South West,Small,2021-10-18,1.0508
+C074,Kingsgrave Digital Group,Technology,South East,Medium,2025-07-21,0.9598
+C075,Farrowdale Waste Solutions Ltd,Utilities,London,Medium,2022-04-11,1.0651
+C076,Dalbeck Education Trust LLP,Education,Northern Ireland,Small,2021-10-18,1.069
+C077,Dalbeck Retail LLP,Retail,South East,Large,2021-09-27,1.0655
+C078,Westcombe Construction LLP,Construction,London,Small,2021-12-27,0.8624
+C079,Corvane Financial Services Ltd,Finance,North East,Small,2025-03-10,0.9409
+C080,Appleby Rise Digital Group,Technology,Yorkshire & Humber,Medium,2021-10-11,0.8478
+C081,Wharfedale Retail Group,Retail,East of England,Large,2021-10-04,0.967
+C082,Fernbury Hospitality plc,Hospitality,Northern Ireland,Small,2021-10-11,0.8701
+C083,Vernham Logistics Holdings,Transport & logistics,London,Small,2025-05-05,1.3135
+C084,Calderwick Retail Ltd,Retail,North East,Medium,2021-10-11,0.9789
+C085,Farrowdale Financial Services & Sons,Finance,Yorkshire & Humber,Small,2023-08-14,1.1639
+C086,Glenmarsh Education Trust Holdings,Education,South East,Small,2021-10-18,0.9351
+C087,Nethercote Engineering & Sons,Engineering,North West,Small,2021-10-18,1.0504
+C088,Kirkstall Foods Ltd,Food & drink,Northern Ireland,Small,2021-10-11,1.0963
+C089,Marrowgate Construction Group,Construction,Yorkshire & Humber,Small,2021-10-04,0.9598
+C090,Fallowmere Security plc,Security services,South West,Large,2022-01-17,0.8797
+C091,Mereside Manufacturing Ltd,Manufacturing,Wales,Medium,2022-04-11,1.1335
+C092,Ulverdale Education Trust Ltd,Education,South East,Small,2023-10-16,1.1691
+C093,Rushmoor Manufacturing Ltd,Manufacturing,London,Small,2021-10-11,1.0914
+C094,Ravensdyke Care Services Ltd,Social care,East of England,Medium,2021-09-27,1.1814
+C095,Rushmoor Hospitality Group,Hospitality,Yorkshire & Humber,Medium,2021-10-04,0.7985
+C096,Inglemere Financial Services Ltd,Finance,East Midlands,Medium,2025-05-26,0.9987
+C097,Pinfold Foods Ltd,Food & drink,East of England,Large,2021-09-27,0.8663
+C098,Ulverdale Digital Holdings,Technology,London,Small,2021-10-18,1.1876
+C099,Birchgate Financial Services Ltd,Finance,Scotland,Small,2021-10-18,1.1509
+C100,Bellmoor Foods Ltd,Food & drink,South West,Small,2021-10-04,1.1578
+C101,Sandbeck Security Ltd,Security services,Northern Ireland,Medium,2021-10-18,0.9138
+C102,Eskwood Security plc,Security services,London,Medium,2021-10-04,1.026
+C103,Birchgate Care Services & Sons,Social care,East of England,Small,2021-10-18,1.1475
+C104,Mereside Retail Ltd,Retail,Wales,Small,2024-10-14,1.1727
+C105,Ivelstone Security Ltd,Security services,East of England,Medium,2021-09-27,0.8842
+C106,Yewdale Hospitality Ltd,Hospitality,Northern Ireland,Medium,2021-10-04,0.9059
+C107,Silverbeck Financial Services Ltd,Finance,London,Large,2021-10-11,0.9223
+C108,Varleigh Financial Services Ltd,Finance,South East,Small,2022-01-17,1.1842
+C109,Heathcote Energy & Sons,Energy & utilities,Northern Ireland,Small,2021-10-18,1.0959
+C110,Varleigh Care Services Ltd,Social care,South West,Large,2021-10-04,1.0327
+C111,Pinfold Hospitality plc,Hospitality,West Midlands,Medium,2021-09-27,0.798
+C112,Inglemere Retail & Sons,Retail,Scotland,Medium,2021-09-27,0.944
+C113,Nethercote Waste Solutions LLP,Utilities,Northern Ireland,Small,2021-10-18,1.0827
+C114,Coldharbour Logistics Ltd,Transport & logistics,London,Small,2021-10-11,1.0581
+C115,Netherby Logistics Ltd,Transport & logistics,Scotland,Medium,2024-06-03,0.8028
+C116,Kestlebrook Financial Services Ltd,Finance,East Midlands,Small,2024-12-09,1.1499
+C117,Orchardby Education Trust & Sons,Education,East of England,Small,2021-10-11,1.0662
+C118,Nethercote Foods Group,Food & drink,Wales,Small,2021-10-04,0.9831
+C119,Mereside Engineering & Sons,Engineering,Yorkshire & Humber,Medium,2021-10-18,1.0934
+C120,Ashgrove Construction Group,Construction,Wales,Medium,2021-10-11,0.816
+C121,Lanwick Hospitality plc,Hospitality,Northern Ireland,Large,2021-09-27,0.8551
+C122,Farrowdale Logistics Ltd,Transport & logistics,Northern Ireland,Medium,2021-10-11,1.0597
+C123,Underhill Care Services & Sons,Social care,North West,Medium,2024-07-15,1.0072
+C124,Ravensdyke Energy Holdings,Energy & utilities,North East,Large,2021-09-20,0.88
+C125,Rushmoor Digital plc,Technology,West Midlands,Small,2021-10-04,1.0143
+C126,Yarrowfield Print & Packaging Ltd,Manufacturing,London,Small,2021-10-11,1.0062
+C127,Eskwood Foods Group,Food & drink,London,Small,2023-07-24,1.1233
+C128,Kingsgrave Security Group,Security services,North East,Small,2021-10-11,0.9991
+C129,Tarnside Security Holdings,Security services,South East,Large,2021-09-27,0.9631
+C130,Inglemere Print & Packaging Ltd,Manufacturing,East of England,Small,2021-10-04,0.836
+C131,Hollinbeck Foods LLP,Food & drink,West Midlands,Large,2021-10-04,1.0177
+C132,Orchardby Foods Holdings,Food & drink,East of England,Small,2021-10-04,1.3148
+C133,Marrowgate Security Ltd,Security services,London,Medium,2021-10-11,1.0197
+C134,Kirkstall Hospitality Holdings,Hospitality,Yorkshire & Humber,Medium,2021-10-11,0.9616
+C135,Fernbury Manufacturing plc,Manufacturing,Wales,Medium,2022-04-04,0.9195
+C136,Coldharbour Manufacturing Ltd,Manufacturing,Northern Ireland,Medium,2021-10-04,1.0403
+C137,Marrowgate Retail Ltd,Retail,West Midlands,Small,2021-10-18,0.9652
+C138,Garthmoor Retail & Sons,Retail,South West,Large,2021-10-11,0.8292
+C139,Dunmere Security & Sons,Security services,North East,Medium,2024-08-19,0.784
+C140,Yoredale Logistics Ltd,Transport & logistics,West Midlands,Small,2025-02-03,1.0553
+C141,Aldermoor Construction plc,Construction,London,Medium,2023-12-04,0.9422
+C142,Sandbeck Logistics Ltd,Transport & logistics,Wales,Small,2021-10-18,1.006
+C143,Underhill Manufacturing Ltd,Manufacturing,East Midlands,Medium,2021-10-04,0.9698
+C144,Jarrowby Education Trust Ltd,Education,Yorkshire & Humber,Small,2021-10-25,0.9596
+C145,Calderwick Financial Services & Sons,Finance,Scotland,Medium,2021-10-04,0.9883
+C146,Farrowdale Education Trust plc,Education,East Midlands,Large,2024-04-22,0.8079
+C147,Zennor Digital & Sons,Technology,Yorkshire & Humber,Large,2021-09-27,0.8897
+C148,Orchardby Care Services Holdings,Social care,Wales,Medium,2021-09-27,0.9431
+C149,Pinfold Engineering LLP,Engineering,North West,Small,2021-10-18,0.8683
+C150,Zennor Logistics Ltd,Transport & logistics,South West,Medium,2021-09-27,0.8593
+C151,Lowther Financial Services Group,Finance,East of England,Large,2021-10-11,0.8482
+C152,Fernbury Waste Solutions plc,Utilities,Wales,Small,2022-04-25,0.9737
+C153,Ellerwick Print & Packaging plc,Manufacturing,Scotland,Medium,2021-10-18,0.9955
+C154,Sandbeck Education Trust Ltd,Education,West Midlands,Small,2021-11-01,0.9891
+C155,Northwell Engineering Ltd,Engineering,Yorkshire & Humber,Small,2021-10-18,1.0247
+C156,Sandbeck Care Services plc,Social care,Yorkshire & Humber,Small,2021-10-04,0.9887
+C157,Tarnside Waste Solutions Ltd,Utilities,South West,Large,2021-09-27,0.6946
+C158,Stanbrook Digital & Sons,Technology,East of England,Medium,2021-10-04,0.9581
+C159,Yarrowfield Financial Services Ltd,Finance,Wales,Medium,2021-10-04,0.8917
+C160,Brackenfield Education Trust & Sons,Education,South West,Small,2021-10-18,1.0137
+C161,Ulverdale Foods Group,Food & drink,Northern Ireland,Small,2021-09-27,0.954
+C162,Ulverdale Financial Services Group,Finance,Scotland,Medium,2025-05-26,1.0357
+C163,Netherby Foods Holdings,Food & drink,Scotland,Small,2023-03-20,1.0253
+C164,Varleigh Print & Packaging & Sons,Manufacturing,Scotland,Small,2021-10-11,1.1056
+C165,Harrowfield Security Ltd,Security services,Scotland,Small,2021-09-27,1.1137
+C166,Lanwick Logistics Group,Transport & logistics,Northern Ireland,Medium,2025-08-18,0.9166
+C167,Upperton Logistics Ltd,Transport & logistics,West Midlands,Small,2021-10-04,1.1175
+C168,Fernbury Care Services LLP,Social care,East Midlands,Small,2021-10-18,1.0538
+C169,Oldacre Waste Solutions LLP,Utilities,South East,Small,2021-10-18,0.9266
+C170,Ulverdale Care Services Ltd,Social care,Scotland,Small,2021-09-27,1.0181
+C171,Aldermoor Hospitality & Sons,Hospitality,Yorkshire & Humber,Large,2021-09-27,0.9085
+C172,Valebridge Education Trust & Sons,Education,Northern Ireland,Small,2022-06-27,1.1695
+C173,Upperton Print & Packaging & Sons,Manufacturing,East Midlands,Small,2021-10-11,0.9947
+C174,Silverbeck Care Services Holdings,Social care,East Midlands,Small,2021-10-04,1.2052
+C175,Redcombe Energy LLP,Energy & utilities,West Midlands,Small,2024-09-09,1.1124
+C176,Rushmoor Retail Ltd,Retail,North East,Small,2024-09-30,0.8337
+C177,Stanbrook Hospitality & Sons,Hospitality,West Midlands,Large,2024-11-18,0.8115
+C178,Appleby Rise Security Ltd,Security services,North West,Medium,2021-10-11,1.0286
+C179,Aldermoor Engineering plc,Engineering,Wales,Small,2021-10-18,0.8905
+C180,Dalbeck Financial Services LLP,Finance,Wales,Small,2021-10-18,1.0802
+C181,Silverbeck Manufacturing Holdings,Manufacturing,South East,Small,2021-10-04,1.1827
+C182,Tamworth Rise Care Services Ltd,Social care,Wales,Large,2021-10-04,0.8762
+C183,Oldacre Foods Group,Food & drink,North West,Medium,2021-10-04,1.1166
+C184,Juniper Row Care Services Group,Social care,East Midlands,Small,2021-10-04,1.1758
+C185,Calderwick Education Trust Ltd,Education,Scotland,Small,2021-10-11,1.0242
+C186,Harrowfield Logistics Ltd,Transport & logistics,Northern Ireland,Medium,2021-10-18,0.9668
+C187,Orchardby Construction & Sons,Construction,East Midlands,Large,2022-12-05,0.9165
+C188,Marrowgate Foods Ltd,Food & drink,Yorkshire & Humber,Medium,2021-10-11,1.0141
+C189,Silverbeck Security Group,Security services,North West,Medium,2021-10-11,0.8301
+C190,Heathcote Logistics Ltd,Transport & logistics,South West,Large,2021-09-27,0.8871
+C191,Upperton Foods LLP,Food & drink,South East,Large,2021-09-27,0.7613
+C192,Westcombe Financial Services Holdings,Finance,Yorkshire & Humber,Small,2021-10-04,0.9951
+C193,Jessop Manufacturing Group,Manufacturing,South East,Medium,2021-10-11,0.9489
+C194,Orchardby Energy Ltd,Energy & utilities,Wales,Small,2021-10-11,0.8588
+C195,Kirkstall Retail Ltd,Retail,East Midlands,Small,2021-10-04,0.9077
+C196,Hollinbeck Construction Ltd,Construction,North East,Medium,2021-10-11,0.9321
+C197,Mossbank Manufacturing Ltd,Manufacturing,Yorkshire & Humber,Small,2021-10-18,1.2784
+C198,Northwell Education Trust Ltd,Education,South East,Medium,2025-06-16,0.8444
+C199,Hollinbeck Engineering plc,Engineering,London,Medium,2021-09-27,0.9822
+C200,Larkhill Education Trust plc,Education,West Midlands,Medium,2021-10-04,0.8871

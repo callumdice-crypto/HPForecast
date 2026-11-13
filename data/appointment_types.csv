@@ -1,0 +1,11 @@
+type_id,type_name,nominal_code,base_price_gbp
+T01,Physiotherapy,4105,62.0
+T02,Neurodiversity appointments,4120,313.35
+T03,Health Surveillance,4135,418.92
+T04,Pre-placement questionnaire,4150,20.21
+T05,Workstation assessment,4165,70.0
+T06,Therapy,4180,78.0
+T07,Workplace needs assessment,4195,367.9
+T08,Vaccinations,4210,38.0
+T09,Telephone Triage,4225,290.22
+T10,GP report,4240,69.91

@@ -1,0 +1,30 @@
+# The colours and font of the app: Health Partners Group, ALWAYS in light mode (base = "light" stops it following the computer's dark mode).
+# The finer styling (header, tiles, the appointment-type list) is in app/style.css.
+# Streamlit reads this file when you start it from the project folder (python -m hpforecast dashboard does that for you).
+
+[theme]
+base = "light"
+primaryColor = "#3D2683"
+backgroundColor = "#F6F5F8"
+secondaryBackgroundColor = "#ECE7F7"
+textColor = "#333333"
+borderColor = "#D9D3EA"
+showWidgetBorder = true
+baseRadius = "0.6rem"
+buttonRadius = "0.6rem"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap, sans-serif"
+headingFont = "Source Serif 4:https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600;700&display=swap, serif"
+redColor = "#E5484D"
+blueColor = "#2B9CCB"
+violetColor = "#6A4BC4"
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#ECE7F7"
+
+[server]
+# Crypto Edge uses 8501, so this app has its own port (open http://localhost:8510).
+port = 8510
+
+[client]
+toolbarMode = "minimal"

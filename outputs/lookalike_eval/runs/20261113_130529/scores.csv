@@ -1,0 +1,4 @@
+case_id,series,origin,n_code_errors,n_rule_flags,verdict_exact_pct,verdict_within_one_pct,calendar_accuracy__gpt-5.5,calendar_accuracy__mean,over_claiming__gpt-5.5,over_claiming__mean,reasoning__gpt-5.5,reasoning__mean,use_of_weights__gpt-5.5,use_of_weights__mean,clarity__gpt-5.5,clarity__mean,rules_followed__gpt-5.5,rules_followed__all,judge_gap_max,lowest_score,read_this_one,judges_failed
+2024-08-12_T01,T01,2024-08-12,0,0,0.0,100.0,5,5.0,2,2.0,3,3.0,4,4.0,4,4.0,True,True,,2,True,
+2024-09-09_T07,T07,2024-09-09,0,0,67.0,100.0,3,3.0,4,4.0,4,4.0,5,5.0,4,4.0,True,True,,3,False,
+2024-12-23_T01,T01,2024-12-23,0,0,73.0,100.0,4,4.0,4,4.0,4,4.0,5,5.0,5,5.0,False,False,,4,True,

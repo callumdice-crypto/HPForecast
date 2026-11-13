@@ -1,0 +1,23 @@
+{
+  "run_id": "20261113_130529",
+  "when": "2026-11-13T13:07:06",
+  "writer": "gpt-5",
+  "judges": [
+    "gpt-5.5"
+  ],
+  "writer_prompt": "47f91ada",
+  "judge_prompt": "b492e774",
+  "cases": 3,
+  "cases_scored": 3,
+  "cases_failed": 0,
+  "cases_with_date_errors": 0,
+  "cases_to_read_yourself": 2,
+  "verdict_exact_pct": 46.7,
+  "verdict_within_one_pct": 100.0,
+  "rules_followed_pct": 66.7,
+  "calendar_accuracy_mean": 4.0,
+  "over_claiming_mean": 3.33,
+  "reasoning_mean": 3.67,
+  "use_of_weights_mean": 4.67,
+  "clarity_mean": 4.33
+}

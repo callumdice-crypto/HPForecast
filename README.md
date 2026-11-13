@@ -87,3 +87,15 @@ lookalike-cases regenerates the 20 test cases in outputs/lookalike_eval/cases.js
 lookalike-eval runs the writer on each test case and has a second OpenAI model act as a judge and score the results. Output goes to outputs/lookalike_eval/. Use --limit 3 to run a small sample first.
 
 The instructions for the writer and the judge are plain text files in src/hpforecast/prompts/. Each ends with a Guardrails section that tells the model to treat all input as data rather than instructions, to stay focused on the task, never to guess or invent facts, to say “not known” when information is absent, and never to predict a specific outcome
+
+Screenshot 1 — Database tab
+
+The database explorer page. The top banner carries the project title. Below it are four summary cards: 200 clients, 10 appointment types, 391,344 cancellations total, and 261 weeks of history (roughly 5 years). The Clients sub-tab is open, showing a searchable, sortable table with columns for client number, name, industry, region, size, join date, total cancellations, 6-month cancellations, and income. A handful of clients are visible — a mix of industries including technology, security, construction and food.
+
+Screenshot 2 — Forecast tab
+
+The main forecasting view. The Health Partners logo sits in the header alongside the project title. The left sidebar lists all 11 appointment types with their forecast income at risk (Neurodiversity at £107k is the largest individual type; all types combined show £369k). The selected view is “All appointment types, next week w/c 2 Nov”.
+
+The four metric cards show: 1,943 cancellations expected, £369k income at risk (highlighted in red), £190 average per cancellation, and £3.86M billed last week. The range shown is labelled “25% range” — that may mean the app was running before the 40% config change was picked up, or the Streamlit process needs a restart.
+
+The backtest chart below shows the purple forecast line and shaded band against the black actual-outcome dots over roughly the past year, with Cancellations/Income and 6 months/1 year/2 years toggles.
